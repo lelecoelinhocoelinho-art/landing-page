@@ -52,6 +52,7 @@
 
 body {
   margin: 0;
+   
 }
 
 #root {
@@ -108,4 +109,30 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+#DS{
+  color: rgb(111, 64, 144)
+}
+#TS{
+  text-align: center
+}
+img{
+  height: 70%;
+  width: 99%
+}
+#social{
+  text-align: center
+}
+#btn{
+  height: 11%;  
+  border: none;             
+  border-radius: 6px;      
+  padding: 12px 24px;        
+  font-size: 16px;           
+  cursor: pointer;           
+  transition: background-color 0.3s ease; 
+}
+  
+#btn:hover {
+background-color: #0056b3; 
 }
